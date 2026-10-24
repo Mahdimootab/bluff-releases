@@ -17,11 +17,11 @@
 
 این APK برای اجرای بازی Chrome یا نصب PWA را باز نمی‌کند. Android System WebView باید روی دستگاه موجود و به‌روز باشد. بازی آنلاین به اینترنت نیاز دارد.
 
-**وضعیت این فایل در مرحلهٔ آماده‌سازی:** لینک‌های انتشار زیر تا تکمیل انتشار GitHub و سایت، برنامه‌ریزی‌شده‌اند. فایل نسخه روی دستگاه سازنده آماده و امضاشده است.
+**انتشار بتا فعال است:** فایل نصب امضاشده در GitHub منتشر شده و سایت معرفی، آموزش و دریافت نیز در دسترس است.
 
 - [دریافت APK نسخهٔ ۰٫۲٫۰-beta.1](https://github.com/Mahdimootab/bluff-releases/releases/download/v0.2.0-beta.1/bluff-beta-0.2.0-beta.1.apk)
 - [صفحهٔ نسخه و توضیح تغییرات](https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.2.0-beta.1)
-- [سایت معرفی و آموزش — در انتظار انتشار](https://bluff-game-site.silkroad-games-beta.workers.dev/)
+- [سایت معرفی و آموزش](https://bluff-game-site.silkroad-games-beta.workers.dev/)
 - [بازی در مرورگر — آدرس فعلی](https://bluff-game-beta.silkroad-games-beta.workers.dev/)
 
 آیفون و آیپد از نسخهٔ وب استفاده می‌کنند؛ برای نصب PWA، صفحهٔ خود بازی را در Safari باز کنید و از Share، گزینهٔ Add to Home Screen را بزنید. نصب و اجرای iOS در این تحویل روی دستگاه واقعی بررسی نشده است.
