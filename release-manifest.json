@@ -35,11 +35,12 @@
       "freshlyExecutedFor": "0.4.0-beta.1"
     },
     "webTests": {
-      "passed": 104,
+      "passed": 108,
       "failed": 0,
       "skipped": 0,
       "sampleAudioTestsIncluded": 12,
-      "presentationTestsIncluded": 6
+      "presentationTestsIncluded": 6,
+      "serviceWorkerUpdateTestsIncluded": 4
     },
     "build": {
       "status": "VERIFIED_FINAL_WEB_AND_ANDROID_BUILD",
@@ -148,19 +149,43 @@
       "automatedTestCue": "PLAYED_ACTUAL_SAMPLES",
       "listening": "USER_CONFIRMED_REAL_CARD_AUDIO_SUITABLE_IN_CODE11_CANDIDATE",
       "candidateApkSha256": "1d233250d7f4d5c821837c8fc004cd2700af6e2c56ab9ec3789229ffe0134522",
-      "finalFourWavFilesIdentical": true
+      "finalFourWavFilesIdentical": true,
+      "finalInstalledApkSha256Verified": true
     },
-    "nativeInPlaceUpgrade": "FIRST_CODE11_CANDIDATE_INSTALLED_AUDIO_USER_CONFIRMED_FINAL_REINSTALL_PENDING",
+    "nativeInPlaceUpgrade": "VERIFIED_ADB_REPLACE_CODE10_TO11_FINAL_EXACT_INSTALLED_APK_SHA256",
     "nativeOffline": "NOT_TESTED_FOR_CODE11",
     "nativeOnline": "NOT_TESTED_FOR_CODE11",
     "nativeReconnect": "NOT_TESTED_FOR_CODE11",
     "nativeHaptics": "NOT_TESTED_NOT_GUARANTEED",
     "devicePerformance": "NOT_TESTED_FOR_CODE11",
     "publicPwaUpgrade": {
-      "status": "NOT_TESTED_FOR_THIS_RELEASE"
+      "status": "VERIFIED_CHROME_0.6_TO_0.7_SAME_HAND_ACTOR_REVISION_AND_PREFERENCES",
+      "from": "0.6.0-beta.1",
+      "to": "0.7.0-beta.1",
+      "sameCardsInSameOrder": 12,
+      "sameActor": true,
+      "sameRevision": 4,
+      "threePreferencesPreserved": [
+        false,
+        false,
+        false
+      ],
+      "initialPreparationFailed": true,
+      "ordinaryRetrySucceeded": true,
+      "evidence": "reports/card-experience/browser.json"
     },
     "publicBrowser": {
-      "status": "PENDING_PRODUCTION_VERIFICATION"
+      "status": "VERIFIED_PUBLIC_CHROME_LOCAL_PLAY_AND_PER_TAB_OFFLINE_EMULATION",
+      "offlineEmulation": {
+        "actualSamplesFetchDecodeAndSchedule": true,
+        "coldPageReloadAndContinue": true,
+        "deferredMotionLoaded": true,
+        "noReplayCount": 0,
+        "networkRestored": true
+      },
+      "physicalOffline": "NOT_TESTED_THIS_RELEASE",
+      "newOnlineFullMatch": "NOT_TESTED_THIS_RELEASE",
+      "evidence": "reports/card-experience/browser.json"
     },
     "onlineTests": {
       "status": "NOT_RERUN_FOR_THIS_UI_ONLY_RELEASE",
@@ -170,6 +195,29 @@
       "status": "VERIFIED_FULL_ANONYMOUS_DOWNLOAD_SIZE_AND_SHA256",
       "evidence": "reports/card-experience/github-release.json"
     },
-    "naturalCompletedMatch": "NOT_COMPLETED_IN_THIS_RELEASE_CHECK"
+    "naturalCompletedMatch": "NOT_COMPLETED_IN_THIS_RELEASE_CHECK",
+    "nativeDevice": {
+      "status": "VERIFIED_FINAL_INSTALL_AND_INSTALLED_APK_SHA256",
+      "versionCode": 11,
+      "oldVersionCode": 10,
+      "sha256": "533ce9ff14f89fab225fcb5b9afbcf2311be5c31042c070bf515516c5c83b7ec",
+      "audioListening": "USER_APPROVED_SAME_FOUR_RECORDINGS_BEFORE_FINAL_REBUILD",
+      "physicalOffline": "NOT_TESTED_THIS_RELEASE",
+      "haptics": "NOT_TESTED",
+      "evidence": "reports/card-experience/device.json"
+    },
+    "publicPrecache": {
+      "status": "VERIFIED_ALL_61_HTTP200_BYTES_EQUAL_LOCAL",
+      "files": 61,
+      "wavFiles": 4,
+      "wavMime": "audio/wav",
+      "evidence": "reports/card-experience/precache-http.json"
+    },
+    "publicWorker": {
+      "name": "bluff-game-beta",
+      "versionId": "e00c91b3-16e7-4772-84aa-75dd66adba14",
+      "webBuild": "b2d230cba597eb932074",
+      "evidence": "reports/card-experience/deployment.json"
+    }
   }
 }
