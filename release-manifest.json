@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "status": "PUBLISHED",
+    "repository": "Mahdimootab/bluff-releases",
+    "tag": "v0.2.0-beta.1",
+    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.2.0-beta.1",
+    "siteUrl": "https://bluff-game-site.silkroad-games-beta.workers.dev/",
+    "gameUrl": "https://bluff-game-beta.silkroad-games-beta.workers.dev/",
+    "publishedAt": "2026-10-24T06:30:29Z",
+    "releaseId": 422560752
+  },
+  "android": {
+    "appName": "بلوف بتا",
+    "packageName": "app.bluffgame.beta",
+    "versionName": "0.2.0-beta.1",
+    "versionCode": 3,
+    "fileName": "bluff-beta-0.2.0-beta.1.apk",
+    "sizeBytes": 3896015,
+    "sha256": "1df4ccf6571de3fa173ea73d528dd7dc6f5b17c9f00156ffa6bb062f9f6c91e0",
+    "certificateSha256": "3A:23:C4:0C:12:B6:74:6C:76:2F:56:8D:6C:CF:44:20:44:DB:ED:91:F7:64:C6:E7:B2:E2:66:5A:55:C7:A4:AA",
+    "minSdk": 24,
+    "targetSdk": 36,
+    "runtime": "bundled-android-webview",
+    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.2.0-beta.1/bluff-beta-0.2.0-beta.1.apk"
+  },
+  "verification": {
+    "signature": "VERIFIED",
+    "packageIntegrity": "VERIFIED",
+    "nativeUnitTests": {
+      "passed": 6,
+      "failed": 0,
+      "skipped": 0
+    },
+    "deviceLocalPlay": "USER_CONFIRMED",
+    "nativeOffline": "NOT_TESTED",
+    "nativeOnline": "NOT_TESTED",
+    "nativeReconnect": "NOT_TESTED",
+    "nativeBackAndRotation": "NOT_TESTED"
+  }
+}
