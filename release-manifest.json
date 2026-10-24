@@ -3,26 +3,26 @@
   "publication": {
     "status": "PUBLISHED",
     "repository": "Mahdimootab/bluff-releases",
-    "tag": "v0.2.0-beta.1",
-    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.2.0-beta.1",
+    "tag": "v0.3.0-beta.1",
+    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.3.0-beta.1",
     "siteUrl": "https://bluff-game-site.silkroad-games-beta.workers.dev/",
     "gameUrl": "https://bluff-game-beta.silkroad-games-beta.workers.dev/",
-    "publishedAt": "2026-10-24T06:30:29Z",
-    "releaseId": 422560752
+    "publishedAt": "2026-10-24T08:40:00Z",
+    "releaseId": 422613597
   },
   "android": {
     "appName": "بلوف بتا",
     "packageName": "app.bluffgame.beta",
-    "versionName": "0.2.0-beta.1",
-    "versionCode": 3,
-    "fileName": "bluff-beta-0.2.0-beta.1.apk",
-    "sizeBytes": 3896015,
-    "sha256": "1df4ccf6571de3fa173ea73d528dd7dc6f5b17c9f00156ffa6bb062f9f6c91e0",
+    "versionName": "0.3.0-beta.1",
+    "versionCode": 6,
+    "fileName": "bluff-beta-0.3.0-beta.1.apk",
+    "sizeBytes": 4766955,
+    "sha256": "523d0beb01656350ef375fb364d9b99ea3ad9f0d9f31448d136f8a19d242cb4c",
     "certificateSha256": "3A:23:C4:0C:12:B6:74:6C:76:2F:56:8D:6C:CF:44:20:44:DB:ED:91:F7:64:C6:E7:B2:E2:66:5A:55:C7:A4:AA",
     "minSdk": 24,
     "targetSdk": 36,
     "runtime": "bundled-android-webview",
-    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.2.0-beta.1/bluff-beta-0.2.0-beta.1.apk"
+    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.3.0-beta.1/bluff-beta-0.3.0-beta.1.apk"
   },
   "verification": {
     "signature": "VERIFIED",
@@ -30,12 +30,27 @@
     "nativeUnitTests": {
       "passed": 6,
       "failed": 0,
-      "skipped": 0
+      "skipped": 0,
+      "execution": "GRADLE_UP_TO_DATE_CACHED"
     },
-    "deviceLocalPlay": "USER_CONFIRMED",
+    "deviceLocalPlay": "USER_CONFIRMED_SAVE_AND_UNTIMED_PLAY",
     "nativeOffline": "NOT_TESTED",
     "nativeOnline": "NOT_TESTED",
     "nativeReconnect": "NOT_TESTED",
-    "nativeBackAndRotation": "NOT_TESTED"
+    "nativeBackAndRotation": "NOT_TESTED",
+    "browserUntimedPlay": {
+      "status": "VERIFIED_LOCAL_PRODUCTION_BROWSER",
+      "waitedSeconds": 70.505,
+      "timerElements": 0,
+      "revisionBefore": 0,
+      "revisionAfterWait": 0,
+      "handCountBefore": 13,
+      "handCountAfterWait": 13
+    },
+    "publicOnlineSmoke": {
+      "status": "VERIFIED_PUBLIC_6_PLAYERS",
+      "evidence": "reports/untimed-release/live-online.json"
+    },
+    "pwaOfflineBrowser": "VERIFIED_NETWORK_EMULATED_OFFLINE_VALID_PLAY_AND_SAVE_RESUME"
   }
 }
