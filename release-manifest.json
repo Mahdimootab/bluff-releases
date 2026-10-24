@@ -3,54 +3,72 @@
   "publication": {
     "status": "PUBLISHED",
     "repository": "Mahdimootab/bluff-releases",
-    "tag": "v0.3.0-beta.1",
-    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.3.0-beta.1",
+    "tag": "v0.4.0-beta.2",
+    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.4.0-beta.2",
     "siteUrl": "https://bluff-game-site.silkroad-games-beta.workers.dev/",
     "gameUrl": "https://bluff-game-beta.silkroad-games-beta.workers.dev/",
-    "publishedAt": "2026-10-24T08:40:00Z",
-    "releaseId": 422613597
+    "publishedAt": "2026-10-24T09:14:59Z",
+    "releaseId": 422629111
   },
   "android": {
     "appName": "بلوف بتا",
     "packageName": "app.bluffgame.beta",
-    "versionName": "0.3.0-beta.1",
-    "versionCode": 6,
-    "fileName": "bluff-beta-0.3.0-beta.1.apk",
-    "sizeBytes": 4766955,
-    "sha256": "523d0beb01656350ef375fb364d9b99ea3ad9f0d9f31448d136f8a19d242cb4c",
+    "versionName": "0.4.0-beta.2",
+    "versionCode": 8,
+    "fileName": "bluff-beta-0.4.0-beta.2.apk",
+    "sizeBytes": 4768370,
+    "sha256": "3a1631cd6d4ea65b3f00d4f919cb35aafd60d9485a9112b87d7eff6fdaa67773",
     "certificateSha256": "3A:23:C4:0C:12:B6:74:6C:76:2F:56:8D:6C:CF:44:20:44:DB:ED:91:F7:64:C6:E7:B2:E2:66:5A:55:C7:A4:AA",
     "minSdk": 24,
     "targetSdk": 36,
     "runtime": "bundled-android-webview",
-    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.3.0-beta.1/bluff-beta-0.3.0-beta.1.apk"
+    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.4.0-beta.2/bluff-beta-0.4.0-beta.2.apk"
   },
   "verification": {
     "signature": "VERIFIED",
-    "packageIntegrity": "VERIFIED",
+    "packageIntegrity": "NOT_TESTED",
     "nativeUnitTests": {
-      "passed": 6,
+      "passed": 9,
       "failed": 0,
       "skipped": 0,
-      "execution": "GRADLE_UP_TO_DATE_CACHED"
+      "execution": "GRADLE_UP_TO_DATE_CACHED",
+      "freshlyExecutedFor": "0.4.0-beta.1",
+      "evidence": "TEST-app.bluffgame.beta.NativeRoutePolicyTest.xml"
     },
-    "deviceLocalPlay": "USER_CONFIRMED_SAVE_AND_UNTIMED_PLAY",
+    "deviceLocalPlay": "NOT_TESTED",
     "nativeOffline": "NOT_TESTED",
     "nativeOnline": "NOT_TESTED",
     "nativeReconnect": "NOT_TESTED",
     "nativeBackAndRotation": "NOT_TESTED",
-    "browserUntimedPlay": {
-      "status": "VERIFIED_LOCAL_PRODUCTION_BROWSER",
-      "waitedSeconds": 70.505,
-      "timerElements": 0,
-      "revisionBefore": 0,
-      "revisionAfterWait": 0,
-      "handCountBefore": 13,
-      "handCountAfterWait": 13
+    "nativeUpdateDownload": "NOT_TESTED",
+    "nativeInPlaceUpgrade": "NOT_TESTED",
+    "browserUpdateStates": {
+      "status": "VERIFIED_PREVIOUS_CODE_7_NATIVE_BUNDLE_IN_BROWSER_WITH_SYNTHETIC_METADATA",
+      "testedVersionName": "0.4.0-beta.1",
+      "sameVersionDownloadButtons": 0,
+      "higherVersionDownloadButtons": 1,
+      "unavailableDownloadButtons": 0,
+      "syntheticDownloadClicked": false,
+      "evidence": "reports/app-update/browser-fixtures.json"
     },
-    "publicOnlineSmoke": {
-      "status": "VERIFIED_PUBLIC_6_PLAYERS",
-      "evidence": "reports/untimed-release/live-online.json"
+    "nativeCurrentVersionBrowser": {
+      "status": "VERIFIED_CODE_8_PRODUCTION_NATIVE_BUNDLE_IN_BROWSER_NOT_ANDROID_DEVICE",
+      "downloadButtons": 0,
+      "evidence": "reports/app-update/native-beta2-browser.json"
     },
-    "pwaOfflineBrowser": "VERIFIED_NETWORK_EMULATED_OFFLINE_VALID_PLAY_AND_SAVE_RESUME"
+    "webHomeAndPwaGuard": {
+      "status": "VERIFIED_WEB_PRODUCTION_BROWSER",
+      "homeFooterControls": 0,
+      "pwaActionsDuringMatch": 0,
+      "evidence": "reports/app-update/web-ui.json"
+    },
+    "webTests": { "passed": 73, "testedVersionName": "0.4.0-beta.2" },
+    "onlineTests": { "passed": 49, "testedVersionName": "0.4.0-beta.1" },
+    "onlineFocusedTests": { "passed": 3, "testedVersionName": "0.4.0-beta.2" },
+    "anonymousPublishedApk": {
+      "status": "VERIFIED_FULL_DOWNLOAD_SIZE_AND_SHA256",
+      "evidence": "reports/app-update/github-release.json"
+    },
+    "pwaOfflineBrowser": "NOT_TESTED"
   }
 }

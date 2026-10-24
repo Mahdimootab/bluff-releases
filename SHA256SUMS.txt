@@ -1,1 +1,1 @@
-523d0beb01656350ef375fb364d9b99ea3ad9f0d9f31448d136f8a19d242cb4c  bluff-beta-0.3.0-beta.1.apk
+3a1631cd6d4ea65b3f00d4f919cb35aafd60d9485a9112b87d7eff6fdaa67773  bluff-beta-0.4.0-beta.2.apk
