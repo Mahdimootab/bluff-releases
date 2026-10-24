@@ -3,26 +3,26 @@
   "publication": {
     "status": "PUBLISHED",
     "repository": "Mahdimootab/bluff-releases",
-    "tag": "v0.5.0-beta.1",
-    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.5.0-beta.1",
+    "tag": "v0.6.0-beta.1",
+    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.6.0-beta.1",
     "siteUrl": "https://bluff-game-site.silkroad-games-beta.workers.dev/",
     "gameUrl": "https://bluff-game-beta.silkroad-games-beta.workers.dev/",
-    "publishedAt": "2026-10-24T09:49:38Z",
-    "releaseId": 422645568
+    "publishedAt": "2026-10-24T10:46:52Z",
+    "releaseId": 422671080
   },
   "android": {
     "appName": "بلوف بتا",
     "packageName": "app.bluffgame.beta",
-    "versionName": "0.5.0-beta.1",
-    "versionCode": 9,
-    "fileName": "bluff-beta-0.5.0-beta.1.apk",
-    "sizeBytes": 4950077,
-    "sha256": "84d07875a9ebdff12a40770c0a54e8fd393604078747661652db161ba67c4046",
+    "versionName": "0.6.0-beta.1",
+    "versionCode": 10,
+    "fileName": "bluff-beta-0.6.0-beta.1.apk",
+    "sizeBytes": 4952929,
+    "sha256": "ca8da2e2b407a5b359547f6b122bc730df28226d8f410aca32357c0edcdf2c85",
     "certificateSha256": "3A:23:C4:0C:12:B6:74:6C:76:2F:56:8D:6C:CF:44:20:44:DB:ED:91:F7:64:C6:E7:B2:E2:66:5A:55:C7:A4:AA",
     "minSdk": 24,
     "targetSdk": 36,
     "runtime": "bundled-android-webview",
-    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.5.0-beta.1/bluff-beta-0.5.0-beta.1.apk"
+    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.6.0-beta.1/bluff-beta-0.6.0-beta.1.apk"
   },
   "verification": {
     "signature": "VERIFIED",
@@ -35,65 +35,79 @@
       "freshlyExecutedFor": "0.4.0-beta.1"
     },
     "webTests": {
-      "passed": 81,
+      "passed": 91,
       "failed": 0,
-      "profileCareerTestsIncluded": 8
+      "achievementTestsIncluded": 5
     },
-    "onlineFocusedTests": {
-      "passed": 3,
+    "onlineTests": {
+      "passed": 52,
       "failed": 0
     },
-    "avatars": {
-      "generated": 10,
-      "male": 5,
-      "female": 5,
-      "runtimeBytes": 172588,
-      "priorRuntimeImagesUnchanged": 35,
-      "evidence": "reports/profile-career/assets.json"
+    "preservedPriorArtworkFontsIcons": 51,
+    "artworkComparison": {
+      "fromVersion": "0.5.0-beta.1",
+      "toVersion": "0.6.0-beta.1",
+      "status": "VERIFIED_ALL_51_MATCHING_SHA256_AND_MIME"
     },
-    "browserProfile": {
-      "status": "VERIFIED_PUBLIC_CHROME_PROFILE_EDIT_RELOAD_AND_10_AVATARS",
-      "evidence": "reports/profile-career/public-browser.json"
+    "browserLocal": {
+      "status": "VERIFIED_LOCAL_IAB_PRODUCTION_UI",
+      "mobileViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "noPageOverflow": true,
+      "difficultyLevelsShown": 3,
+      "humanPlayAndLegalBotResponse": true,
+      "profileAndProfessionalLevelPersisted": true
     },
-    "browserCompletedMatch": {
-      "status": "VERIFIED_CONTROLLED_DEV_ENGINE_TERMINAL_FIXTURE_NOT_NATURAL_MATCH",
-      "games": 1,
-      "wins": 1,
-      "challengeAttempts": 1,
-      "correctChallenges": 1,
-      "persistedAfterReload": true,
-      "evidence": "reports/profile-career/browser-result-fixture.json"
+    "browserOnline": {
+      "status": "VERIFIED_LOCAL_IAB_AND_CHROME_THREE_CLIENTS",
+      "avatars": [
+        "f03",
+        "m05"
+      ],
+      "legacyClientFallback": true,
+      "newClientReconnectSameHandAndActor": true,
+      "legalMoveAfterReconnect": true,
+      "evidence": "reports/player-progression/browser.json",
+      "publicLobby": {
+        "status": "VERIFIED_CLOUDFLARE_CHROME_AND_IAB_TWO_CLIENTS",
+        "room": "BM8RZB78",
+        "avatars": [
+          "m01",
+          "f04"
+        ],
+        "imagesLoaded": true,
+        "publicThreePlayerMatch": "NOT_TESTED_THIS_RELEASE"
+      }
     },
-    "nativeInPlaceUpgrade": "USER_CONFIRMED_REAL_CODE8_TO9_DOWNLOAD_INSTALL_AND_OLD_CONTINUE",
+    "browserAchievements": {
+      "status": "VERIFIED_DEV_ENGINE_TERMINAL_FIXTURE_NOT_NATURAL_MATCH",
+      "gamesAfterReload": 1,
+      "unlocked": "first-win",
+      "progress": {
+        "ten-wins": "1/10",
+        "sharp-eye": "1/3"
+      }
+    },
+    "nativeInPlaceUpgrade": "NOT_TESTED",
     "nativeOffline": "NOT_TESTED",
     "nativeOnline": "NOT_TESTED",
     "nativeReconnect": "NOT_TESTED",
     "nativeBackAndRotation": "NOT_TESTED",
+    "deviceProfile": "NOT_TESTED_FOR_CODE10",
+    "deviceCareerCounters": "NOT_TESTED_FOR_CODE10",
+    "publicPwaUpgrade": {
+      "status": "VERIFIED_CHROME_0.5_TO_0.6_EXACT_15_CARDS_AND_PREFERENCES",
+      "sameCardsInSameOrder": true,
+      "actorComparison": "INCONCLUSIVE_BOTS_ADVANCED_WHILE_TABLE_WAS_OPEN",
+      "legacyDifficulty": "normal",
+      "evidence": "reports/player-progression/public-browser.json"
+    },
     "anonymousPublishedApk": {
       "status": "VERIFIED_FULL_ANONYMOUS_DOWNLOAD_SIZE_AND_SHA256",
-      "evidence": "reports/profile-career/github-release.json"
+      "evidence": "reports/player-progression/github-release.json"
     },
-    "preservedPriorArtworkFontsIcons": 41,
-    "naturalCompletedMatch": "NOT_COMPLETED_IN_THIS_RELEASE_CHECK",
-    "deviceProfile": {
-      "status": "USER_CONFIRMED_CODE9_DOWNLOAD_INSTALL_PROFILE_PERSISTENCE_AND_OLD_CONTINUE",
-      "automatedDeviceUi": false,
-      "adbReadback": "NOT_AVAILABLE_DEVICE_ABSENT"
-    },
-    "deviceCareerCounters": "NOT_TESTED",
-    "publicPwaUpgrade": {
-      "status": "VERIFIED_PUBLIC_CHROME_FROM_0.4.0_BETA2_TO_0.5.0_BETA1",
-      "exactHandCountPreserved": 15,
-      "actorPreserved": true,
-      "threePreferencesPreserved": true,
-      "evidence": "reports/profile-career/public-browser.json"
-    },
-    "browserOfflineProfile": {
-      "status": "VERIFIED_PER_TAB_NETWORK_EMULATION_NOT_PHYSICAL_DEVICE_OFFLINE",
-      "avatarsLoaded": 10,
-      "profileWriteAndReloadPreserved": true,
-      "networkRestored": true,
-      "evidence": "reports/profile-career/public-offline-profile.json"
-    }
+    "naturalCompletedMatch": "NOT_COMPLETED_IN_THIS_RELEASE_CHECK"
   }
 }
