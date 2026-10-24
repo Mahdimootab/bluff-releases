@@ -26,7 +26,7 @@
   },
   "verification": {
     "signature": "VERIFIED",
-    "packageIntegrity": "NOT_TESTED",
+    "packageIntegrity": "VERIFIED_44_HASHED_BUNDLED_FILES",
     "nativeUnitTests": {
       "passed": 9,
       "failed": 0,
@@ -40,8 +40,19 @@
     "nativeOnline": "NOT_TESTED",
     "nativeReconnect": "NOT_TESTED",
     "nativeBackAndRotation": "NOT_TESTED",
-    "nativeUpdateDownload": "NOT_TESTED",
-    "nativeInPlaceUpgrade": "NOT_TESTED",
+    "nativeUpdateDownload": {
+      "status": "USER_CONFIRMED_REAL_NEWER_VERSION_DOWNLOAD_AND_INSTALL",
+      "fromVersionCode": 7,
+      "toVersionCode": 8
+    },
+    "nativeInPlaceUpgrade": {
+      "status": "USER_CONFIRMED_SAVE_AND_SETTINGS_PRESERVED",
+      "fromVersionCode": 7,
+      "toVersionCode": 8,
+      "installedVersionName": "0.4.0-beta.2",
+      "installedVersionConfirmedBy": "ADB_AND_USER"
+    },
+    "nativeHomeCleanup": "USER_CONFIRMED_INDICATORS_REMOVED",
     "browserUpdateStates": {
       "status": "VERIFIED_PREVIOUS_CODE_7_NATIVE_BUNDLE_IN_BROWSER_WITH_SYNTHETIC_METADATA",
       "testedVersionName": "0.4.0-beta.1",
@@ -61,6 +72,23 @@
       "homeFooterControls": 0,
       "pwaActionsDuringMatch": 0,
       "evidence": "reports/app-update/web-ui.json"
+    },
+    "publicPwaUpgrade": {
+      "status": "VERIFIED_PUBLIC_CHROME_DESKTOP_GUARDED_UPGRADE",
+      "versionName": "0.4.0-beta.2",
+      "build": "8aa65b5d8d5dd4f556e9",
+      "handCountBefore": 15,
+      "handCountAfter": 15,
+      "exactCardsActorAndPreferencesPreserved": true,
+      "homeIndicators": 0,
+      "apkDownloadButtons": 0,
+      "pwaUpdateButtonsWhenCurrent": 0,
+      "evidence": "reports/app-update/public-browser.json",
+      "uiEvidence": "reports/app-update/public-ui.json"
+    },
+    "publicSiteInstallLink": {
+      "status": "VERIFIED_PUBLIC_CHROME_DESKTOP_CURRENT_APK_LINK",
+      "evidence": "reports/app-update/site-browser.json"
     },
     "webTests": { "passed": 73, "testedVersionName": "0.4.0-beta.2" },
     "onlineTests": { "passed": 49, "testedVersionName": "0.4.0-beta.1" },
