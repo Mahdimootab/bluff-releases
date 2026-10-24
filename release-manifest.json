@@ -3,30 +3,30 @@
   "publication": {
     "status": "PUBLISHED",
     "repository": "Mahdimootab/bluff-releases",
-    "tag": "v0.6.0-beta.1",
-    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.6.0-beta.1",
+    "tag": "v0.7.0-beta.1",
+    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.7.0-beta.1",
     "siteUrl": "https://bluff-game-site.silkroad-games-beta.workers.dev/",
     "gameUrl": "https://bluff-game-beta.silkroad-games-beta.workers.dev/",
-    "publishedAt": "2026-10-24T10:46:52Z",
-    "releaseId": 422671080
+    "publishedAt": "2026-10-24T12:29:58Z",
+    "releaseId": 422719250
   },
   "android": {
     "appName": "بلوف بتا",
     "packageName": "app.bluffgame.beta",
-    "versionName": "0.6.0-beta.1",
-    "versionCode": 10,
-    "fileName": "bluff-beta-0.6.0-beta.1.apk",
-    "sizeBytes": 4952929,
-    "sha256": "ca8da2e2b407a5b359547f6b122bc730df28226d8f410aca32357c0edcdf2c85",
+    "versionName": "0.7.0-beta.1",
+    "versionCode": 11,
+    "fileName": "bluff-beta-0.7.0-beta.1.apk",
+    "sizeBytes": 5211979,
+    "sha256": "533ce9ff14f89fab225fcb5b9afbcf2311be5c31042c070bf515516c5c83b7ec",
     "certificateSha256": "3A:23:C4:0C:12:B6:74:6C:76:2F:56:8D:6C:CF:44:20:44:DB:ED:91:F7:64:C6:E7:B2:E2:66:5A:55:C7:A4:AA",
     "minSdk": 24,
     "targetSdk": 36,
     "runtime": "bundled-android-webview",
-    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.6.0-beta.1/bluff-beta-0.6.0-beta.1.apk"
+    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.7.0-beta.1/bluff-beta-0.7.0-beta.1.apk"
   },
   "verification": {
     "signature": "VERIFIED",
-    "packageIntegrity": "VERIFIED_54_HASHED_BUNDLED_FILES_AND_EXACT_INVENTORY",
+    "packageIntegrity": "VERIFIED_60_HASHED_BUNDLED_FILES_AND_EXACT_INVENTORY",
     "nativeUnitTests": {
       "passed": 9,
       "failed": 0,
@@ -35,78 +35,140 @@
       "freshlyExecutedFor": "0.4.0-beta.1"
     },
     "webTests": {
-      "passed": 91,
+      "passed": 104,
       "failed": 0,
-      "achievementTestsIncluded": 5
+      "skipped": 0,
+      "sampleAudioTestsIncluded": 12,
+      "presentationTestsIncluded": 6
     },
-    "onlineTests": {
-      "passed": 52,
-      "failed": 0
+    "build": {
+      "status": "VERIFIED_FINAL_WEB_AND_ANDROID_BUILD",
+      "nativeBuild": "32c7d7f333ae1742a55c"
     },
-    "preservedPriorArtworkFontsIcons": 51,
     "artworkComparison": {
-      "fromVersion": "0.5.0-beta.1",
-      "toVersion": "0.6.0-beta.1",
+      "fromVersion": "0.6.0-beta.1",
+      "toVersion": "0.7.0-beta.1",
       "status": "VERIFIED_ALL_51_MATCHING_SHA256_AND_MIME"
     },
-    "browserLocal": {
-      "status": "VERIFIED_LOCAL_IAB_PRODUCTION_UI",
-      "mobileViewport": {
-        "width": 390,
-        "height": 844
-      },
-      "noPageOverflow": true,
-      "difficultyLevelsShown": 3,
-      "humanPlayAndLegalBotResponse": true,
-      "profileAndProfessionalLevelPersisted": true
-    },
-    "browserOnline": {
-      "status": "VERIFIED_LOCAL_IAB_AND_CHROME_THREE_CLIENTS",
-      "avatars": [
-        "f03",
-        "m05"
+    "audio": {
+      "pack": "Kenney Casino Audio1.1",
+      "author": "Kenney Vleugels",
+      "sourceRepository": "https://github.com/series-ai/jam-ready-assets",
+      "sourceCommit": "2d7c41049c1db4d670b1ded88a7aeec0d7c2f38c",
+      "sourceOggFiles": 4,
+      "sourceOggBytes": 41636,
+      "runtimeWavFiles": 4,
+      "runtimeWavBytes": 245206,
+      "format": "PCM16 mono 44100Hz",
+      "synthesized": false,
+      "bundledMimeAndSha256": "VERIFIED_ALL_4",
+      "runtimeFiles": [
+        {
+          "path": "/assets/audio/card-slide-1.wav",
+          "bytes": 53066,
+          "sha256": "36090ef57b7abeb8bc3a2cb787924116b843aec5dc11a70b34a6dbc1042d442b",
+          "mime": "audio/wav"
+        },
+        {
+          "path": "/assets/audio/card-place-1.wav",
+          "bytes": 60858,
+          "sha256": "c44c517f863e009740b5470fae6b72f4a39632f1e83b68a422c10a91aa8b4349",
+          "mime": "audio/wav"
+        },
+        {
+          "path": "/assets/audio/card-fan-1.wav",
+          "bytes": 63654,
+          "sha256": "be9114d65a2563b8fc72763530e1598773e0df4707f2808cf63da2c822a584f0",
+          "mime": "audio/wav"
+        },
+        {
+          "path": "/assets/audio/card-shove-1.wav",
+          "bytes": 67628,
+          "sha256": "1d60edde5afd58eb6f89f955d41ea99f603db05af880690a6dcd5af8ba02ad9c",
+          "mime": "audio/wav"
+        }
       ],
-      "legacyClientFallback": true,
-      "newClientReconnectSameHandAndActor": true,
-      "legalMoveAfterReconnect": true,
-      "evidence": "reports/player-progression/browser.json",
-      "publicLobby": {
-        "status": "VERIFIED_CLOUDFLARE_CHROME_AND_IAB_TWO_CLIENTS",
-        "room": "BM8RZB78",
-        "avatars": [
-          "m01",
-          "f04"
+      "license": "CC0-1.0",
+      "provenance": "assets/audio/manifest.json"
+    },
+    "motion": {
+      "package": "motion",
+      "version": "14.6.0",
+      "license": "MIT",
+      "licenseNoticesBundledOffline": true,
+      "deferredPresentationFiles": [
+        "/assets/TableEffects-B58nH9Dh.css",
+        "/assets/TableEffects-ja8OBeyo.js"
+      ],
+      "allJsChunksBundled": [
+        "/assets/TableEffects-ja8OBeyo.js",
+        "/assets/index-WyzO1UYt.js"
+      ],
+      "deferredPresentationSizes": [
+        {
+          "path": "/assets/TableEffects-B58nH9Dh.css",
+          "bytes": 3017,
+          "gzipBytes": 1109
+        },
+        {
+          "path": "/assets/TableEffects-ja8OBeyo.js",
+          "bytes": 17782,
+          "gzipBytes": 6859
+        }
+      ]
+    },
+    "browserFixture": {
+      "status": "VERIFIED_LOCAL_IAB_DEV_FIXTURE_NOT_NATURAL_GAME",
+      "viewports": [
+        [
+          390,
+          844
         ],
-        "imagesLoaded": true,
-        "publicThreePlayerMatch": "NOT_TESTED_THIS_RELEASE"
-      }
+        [
+          390,
+          680
+        ],
+        [
+          1365,
+          768
+        ]
+      ],
+      "observed": [
+        "deal",
+        "play",
+        "truth-and-bluff-authorized-last-packet-flips",
+        "burn",
+        "winner",
+        "reduced-motion-no-flight",
+        "selection-preserved-during-resize"
+      ],
+      "evidence": "reports/card-experience/"
     },
-    "browserAchievements": {
-      "status": "VERIFIED_DEV_ENGINE_TERMINAL_FIXTURE_NOT_NATURAL_MATCH",
-      "gamesAfterReload": 1,
-      "unlocked": "first-win",
-      "progress": {
-        "ten-wins": "1/10",
-        "sharp-eye": "1/3"
-      }
+    "audioPlayback": {
+      "automatedTestCue": "PLAYED_ACTUAL_SAMPLES",
+      "listening": "USER_CONFIRMED_REAL_CARD_AUDIO_SUITABLE_IN_CODE11_CANDIDATE",
+      "candidateApkSha256": "1d233250d7f4d5c821837c8fc004cd2700af6e2c56ab9ec3789229ffe0134522",
+      "finalFourWavFilesIdentical": true
     },
-    "nativeInPlaceUpgrade": "NOT_TESTED",
-    "nativeOffline": "NOT_TESTED",
-    "nativeOnline": "NOT_TESTED",
-    "nativeReconnect": "NOT_TESTED",
-    "nativeBackAndRotation": "NOT_TESTED",
-    "deviceProfile": "NOT_TESTED_FOR_CODE10",
-    "deviceCareerCounters": "NOT_TESTED_FOR_CODE10",
+    "nativeInPlaceUpgrade": "FIRST_CODE11_CANDIDATE_INSTALLED_AUDIO_USER_CONFIRMED_FINAL_REINSTALL_PENDING",
+    "nativeOffline": "NOT_TESTED_FOR_CODE11",
+    "nativeOnline": "NOT_TESTED_FOR_CODE11",
+    "nativeReconnect": "NOT_TESTED_FOR_CODE11",
+    "nativeHaptics": "NOT_TESTED_NOT_GUARANTEED",
+    "devicePerformance": "NOT_TESTED_FOR_CODE11",
     "publicPwaUpgrade": {
-      "status": "VERIFIED_CHROME_0.5_TO_0.6_EXACT_15_CARDS_AND_PREFERENCES",
-      "sameCardsInSameOrder": true,
-      "actorComparison": "INCONCLUSIVE_BOTS_ADVANCED_WHILE_TABLE_WAS_OPEN",
-      "legacyDifficulty": "normal",
-      "evidence": "reports/player-progression/public-browser.json"
+      "status": "NOT_TESTED_FOR_THIS_RELEASE"
+    },
+    "publicBrowser": {
+      "status": "PENDING_PRODUCTION_VERIFICATION"
+    },
+    "onlineTests": {
+      "status": "NOT_RERUN_FOR_THIS_UI_ONLY_RELEASE",
+      "serverProtocolChanged": false
     },
     "anonymousPublishedApk": {
       "status": "VERIFIED_FULL_ANONYMOUS_DOWNLOAD_SIZE_AND_SHA256",
-      "evidence": "reports/player-progression/github-release.json"
+      "evidence": "reports/card-experience/github-release.json"
     },
     "naturalCompletedMatch": "NOT_COMPLETED_IN_THIS_RELEASE_CHECK"
   }
