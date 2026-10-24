@@ -3,100 +3,97 @@
   "publication": {
     "status": "PUBLISHED",
     "repository": "Mahdimootab/bluff-releases",
-    "tag": "v0.4.0-beta.2",
-    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.4.0-beta.2",
+    "tag": "v0.5.0-beta.1",
+    "releaseUrl": "https://github.com/Mahdimootab/bluff-releases/releases/tag/v0.5.0-beta.1",
     "siteUrl": "https://bluff-game-site.silkroad-games-beta.workers.dev/",
     "gameUrl": "https://bluff-game-beta.silkroad-games-beta.workers.dev/",
-    "publishedAt": "2026-10-24T09:14:59Z",
-    "releaseId": 422629111
+    "publishedAt": "2026-10-24T09:49:38Z",
+    "releaseId": 422645568
   },
   "android": {
     "appName": "بلوف بتا",
     "packageName": "app.bluffgame.beta",
-    "versionName": "0.4.0-beta.2",
-    "versionCode": 8,
-    "fileName": "bluff-beta-0.4.0-beta.2.apk",
-    "sizeBytes": 4768370,
-    "sha256": "3a1631cd6d4ea65b3f00d4f919cb35aafd60d9485a9112b87d7eff6fdaa67773",
+    "versionName": "0.5.0-beta.1",
+    "versionCode": 9,
+    "fileName": "bluff-beta-0.5.0-beta.1.apk",
+    "sizeBytes": 4950077,
+    "sha256": "84d07875a9ebdff12a40770c0a54e8fd393604078747661652db161ba67c4046",
     "certificateSha256": "3A:23:C4:0C:12:B6:74:6C:76:2F:56:8D:6C:CF:44:20:44:DB:ED:91:F7:64:C6:E7:B2:E2:66:5A:55:C7:A4:AA",
     "minSdk": 24,
     "targetSdk": 36,
     "runtime": "bundled-android-webview",
-    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.4.0-beta.2/bluff-beta-0.4.0-beta.2.apk"
+    "downloadUrl": "https://github.com/Mahdimootab/bluff-releases/releases/download/v0.5.0-beta.1/bluff-beta-0.5.0-beta.1.apk"
   },
   "verification": {
     "signature": "VERIFIED",
-    "packageIntegrity": "VERIFIED_44_HASHED_BUNDLED_FILES",
+    "packageIntegrity": "VERIFIED_54_HASHED_BUNDLED_FILES_AND_EXACT_INVENTORY",
     "nativeUnitTests": {
       "passed": 9,
       "failed": 0,
       "skipped": 0,
       "execution": "GRADLE_UP_TO_DATE_CACHED",
-      "freshlyExecutedFor": "0.4.0-beta.1",
-      "evidence": "TEST-app.bluffgame.beta.NativeRoutePolicyTest.xml"
+      "freshlyExecutedFor": "0.4.0-beta.1"
     },
-    "deviceLocalPlay": "NOT_TESTED",
+    "webTests": {
+      "passed": 81,
+      "failed": 0,
+      "profileCareerTestsIncluded": 8
+    },
+    "onlineFocusedTests": {
+      "passed": 3,
+      "failed": 0
+    },
+    "avatars": {
+      "generated": 10,
+      "male": 5,
+      "female": 5,
+      "runtimeBytes": 172588,
+      "priorRuntimeImagesUnchanged": 35,
+      "evidence": "reports/profile-career/assets.json"
+    },
+    "browserProfile": {
+      "status": "VERIFIED_PUBLIC_CHROME_PROFILE_EDIT_RELOAD_AND_10_AVATARS",
+      "evidence": "reports/profile-career/public-browser.json"
+    },
+    "browserCompletedMatch": {
+      "status": "VERIFIED_CONTROLLED_DEV_ENGINE_TERMINAL_FIXTURE_NOT_NATURAL_MATCH",
+      "games": 1,
+      "wins": 1,
+      "challengeAttempts": 1,
+      "correctChallenges": 1,
+      "persistedAfterReload": true,
+      "evidence": "reports/profile-career/browser-result-fixture.json"
+    },
+    "nativeInPlaceUpgrade": "USER_CONFIRMED_REAL_CODE8_TO9_DOWNLOAD_INSTALL_AND_OLD_CONTINUE",
     "nativeOffline": "NOT_TESTED",
     "nativeOnline": "NOT_TESTED",
     "nativeReconnect": "NOT_TESTED",
     "nativeBackAndRotation": "NOT_TESTED",
-    "nativeUpdateDownload": {
-      "status": "USER_CONFIRMED_REAL_NEWER_VERSION_DOWNLOAD_AND_INSTALL",
-      "fromVersionCode": 7,
-      "toVersionCode": 8
-    },
-    "nativeInPlaceUpgrade": {
-      "status": "USER_CONFIRMED_SAVE_AND_SETTINGS_PRESERVED",
-      "fromVersionCode": 7,
-      "toVersionCode": 8,
-      "installedVersionName": "0.4.0-beta.2",
-      "installedVersionConfirmedBy": "ADB_AND_USER"
-    },
-    "nativeHomeCleanup": "USER_CONFIRMED_INDICATORS_REMOVED",
-    "browserUpdateStates": {
-      "status": "VERIFIED_PREVIOUS_CODE_7_NATIVE_BUNDLE_IN_BROWSER_WITH_SYNTHETIC_METADATA",
-      "testedVersionName": "0.4.0-beta.1",
-      "sameVersionDownloadButtons": 0,
-      "higherVersionDownloadButtons": 1,
-      "unavailableDownloadButtons": 0,
-      "syntheticDownloadClicked": false,
-      "evidence": "reports/app-update/browser-fixtures.json"
-    },
-    "nativeCurrentVersionBrowser": {
-      "status": "VERIFIED_CODE_8_PRODUCTION_NATIVE_BUNDLE_IN_BROWSER_NOT_ANDROID_DEVICE",
-      "downloadButtons": 0,
-      "evidence": "reports/app-update/native-beta2-browser.json"
-    },
-    "webHomeAndPwaGuard": {
-      "status": "VERIFIED_WEB_PRODUCTION_BROWSER",
-      "homeFooterControls": 0,
-      "pwaActionsDuringMatch": 0,
-      "evidence": "reports/app-update/web-ui.json"
-    },
-    "publicPwaUpgrade": {
-      "status": "VERIFIED_PUBLIC_CHROME_DESKTOP_GUARDED_UPGRADE",
-      "versionName": "0.4.0-beta.2",
-      "build": "8aa65b5d8d5dd4f556e9",
-      "handCountBefore": 15,
-      "handCountAfter": 15,
-      "exactCardsActorAndPreferencesPreserved": true,
-      "homeIndicators": 0,
-      "apkDownloadButtons": 0,
-      "pwaUpdateButtonsWhenCurrent": 0,
-      "evidence": "reports/app-update/public-browser.json",
-      "uiEvidence": "reports/app-update/public-ui.json"
-    },
-    "publicSiteInstallLink": {
-      "status": "VERIFIED_PUBLIC_CHROME_DESKTOP_CURRENT_APK_LINK",
-      "evidence": "reports/app-update/site-browser.json"
-    },
-    "webTests": { "passed": 73, "testedVersionName": "0.4.0-beta.2" },
-    "onlineTests": { "passed": 49, "testedVersionName": "0.4.0-beta.1" },
-    "onlineFocusedTests": { "passed": 3, "testedVersionName": "0.4.0-beta.2" },
     "anonymousPublishedApk": {
-      "status": "VERIFIED_FULL_DOWNLOAD_SIZE_AND_SHA256",
-      "evidence": "reports/app-update/github-release.json"
+      "status": "VERIFIED_FULL_ANONYMOUS_DOWNLOAD_SIZE_AND_SHA256",
+      "evidence": "reports/profile-career/github-release.json"
     },
-    "pwaOfflineBrowser": "NOT_TESTED"
+    "preservedPriorArtworkFontsIcons": 41,
+    "naturalCompletedMatch": "NOT_COMPLETED_IN_THIS_RELEASE_CHECK",
+    "deviceProfile": {
+      "status": "USER_CONFIRMED_CODE9_DOWNLOAD_INSTALL_PROFILE_PERSISTENCE_AND_OLD_CONTINUE",
+      "automatedDeviceUi": false,
+      "adbReadback": "NOT_AVAILABLE_DEVICE_ABSENT"
+    },
+    "deviceCareerCounters": "NOT_TESTED",
+    "publicPwaUpgrade": {
+      "status": "VERIFIED_PUBLIC_CHROME_FROM_0.4.0_BETA2_TO_0.5.0_BETA1",
+      "exactHandCountPreserved": 15,
+      "actorPreserved": true,
+      "threePreferencesPreserved": true,
+      "evidence": "reports/profile-career/public-browser.json"
+    },
+    "browserOfflineProfile": {
+      "status": "VERIFIED_PER_TAB_NETWORK_EMULATION_NOT_PHYSICAL_DEVICE_OFFLINE",
+      "avatarsLoaded": 10,
+      "profileWriteAndReloadPreserved": true,
+      "networkRestored": true,
+      "evidence": "reports/profile-career/public-offline-profile.json"
+    }
   }
 }
